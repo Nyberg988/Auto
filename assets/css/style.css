@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HOME PAGE  */
+/* navbar and log */
+header {
+    background-color: rgb(247, 2, 2);
+    width: 100%;
+    height: 65px;
+}
+
+#logo, nav {
+    line-height: 30px;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    margin-right: 3rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 5px;
+}
+
+li a {
+    margin: 2rem 1.5rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+li a:hover {
+    text-transform: uppercase;
+}
+
+#logo {
+    margin: -1.5rem;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: rgb(54, 21, 21);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+  
+  /* to make this section responsive a part
+  of the code was taken/inspired by https://codetheweb.blog/fullscreen-image-hero/
+  https://www.developerdrive.com/full-page-hero-image-html-css/#:~:text=Style%20the%20hero%20text,the%20hero%20text%20and%20button. */
+/* hero section  */
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../image/pexels-mermek-avitia-11679848\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero 
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+span {
+    line-height: 56px;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 56px;
+    background: linear-gradient(266.52deg, #F174FC 57.51%, #10CFFC 78.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+/* about me section */
+#about-me {
+    background-color: #eee;
+    width: 80%;
+    padding: 40px 40px;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-me-text {
+    font-size: 1rem;
+    width: 55%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about-me-text
+.title {
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1rem;  
+}
+
+.about-me-image {
+    height: auto;
+    width: 40%;
+    margin: auto;
+}
+
+.about-me-image 
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* recipe section */
+#recipe-section {
+    background: url(../image/recipe-bg-home.webp) no-repeat center center fixed; 
+    background-size: cover;
+    margin-top: 3rem
+}
+
+h2{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card {
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.card
+img{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-contents{
+    text-align: center;
+}
+
+.card-contents
+h3{
+    margin-top: 1rem;
+}
+
+.card-contents
+p{
+    padding: 0.9rem;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    font-size: 16px;
+    padding: 0.6rem;
+    margin: 0.9rem 0.2rem;
+    background: rgba(0, 194, 255, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: capitalize;
+}
+
+.button:hover, 
+#submit:hover {
+    background: rgba(0, 194, 255, 0.8);
+    font-size: 17px;
+}
+
+/* footer */
+footer {
+    height: 30px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons > li {
+    display: inline;
+}
+
+.icons i {
+    font-size: 110%;
+    margin: 0.5%;
+    padding: 0.5%;
+    color: #3a3a3a;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-pinterest:hover {
+    font-size: 130%;
+    font-weight: bold;
+}
+.fa-facebook:hover {
+    color: #10CFFC;    
+}
+
+.fa-instagram:hover {
+    color: #8a3ab9;
+}
+
+.fa-pinterest:hover {
+    color: #E60023;
+}
+
+ /* contact me page */
+#contact-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px;
+    background: url('../image/contact-bg.webp');
+    background-size: cover;    
+}
+
+.inside-box {
+    max-width: 850px;
+    height: 85vh;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 38px;
+}
+
+.form-side {
+    padding: 50px 40px;
+}
+
+.form-side 
+h2 {
+    padding-top: 2rem;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.right-side {
+    height: 85vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('../image/contact-me-container-img.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem 3rem;
+    color: #fff;
+    border-radius: 0 38px 38px 0;
+}
+
+.right-side
+h2 {
+    padding: 2rem 1rem;
+}
+
+.right-side
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 0;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.field:focus {
+    background-color: #fff;
+    border: 2px solid rgba(0, 194, 255, 0.4);
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+#submit {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    background: rgba(0, 194, 255, 0.4);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+/* recipes page */
+/* title tag is from home page */
+.title,
+.title-recipe {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title-recipe {
+    margin-top: 4rem;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    margin: 1rem;
+    line-height: 120%;
+    /* letter-spacing: 2px; */
+}
+
+#recipe-1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/ramen1.webp');
+}
+
+#recipe-2 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/oats1.webp');
+}
+
+#recipe-3 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/poke.webp');
+}
+
+.head-3 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem; 
+    padding-right: 0.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 30%;
+    text-align: start;
+    text-decoration: underline;
+    text-decoration-color: rgb(84, 199, 248);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 5px;
+}
+
+.recipe-container .ingrdient-side ol > li,
+.recipe-container .instruction-side ol > li {
+    padding: 0.5rem;
+}
+
+.ingrdient-side {
+    padding-right: 5rem;
+}
+
+/* confirmation page */
+.msg-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('../image/bg-thankyou.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    overflow: hidden;
+}
+
+.msg-side {
+    text-align: center;
+    padding: 3rem;
+    height: 100%;
+}
+
+.msg-side 
+.msg-success {
+    padding: 1rem;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.msg-side
+p {
+    font-size: 22px;
+    padding-bottom: 2rem;
+    margin: 2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.image-side {
+    max-width: 100%;
+    height: auto;
+    padding-right: 2rem;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+}
+
+.image-side img {
+    width: 100%;
+    height: auto;
+}
+
+      /* media queries */
+/* navigation and hero section */
+  @media (max-width: 858px) {
+
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #12d4ff;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    header nav ul li {
+      display: block;
+      margin: 30px 0;
+      line-height: 20px;
+    }
+    header nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #fff;
+    }
+    #check:checked ~ nav ul{
+      left: 0;
+    }
+    .hero 
+    h1 {
+        font-size: 2rem;
+    }
+    .hero span {
+        font-size: 2.3rem;
+    }
+}
+
+/* about me */
+@media screen and (max-width: 600px){
+    #about-me {
+        background-color: #eee;
+        flex-direction: column-reverse;
+        padding: 10px 0;
+        margin: auto;
+        margin: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-me-text {
+        width: 80%;
+        margin-top: 0.5rem;
+    }
+
+    .about-me-text
+    .title {
+        font-size: 20px;
+    }
+
+    /* recipe page */
+    .recipe-container {
+        flex-direction: column;
+    }
+    .recipe-container .instruction-side
+    .head-3 {
+        padding-top: 3.5rem;
+    }
+
+    /* confirmation page */
+    .msg-side 
+    .msg-success {
+        font-size: 25px;
+    }
+
+    .msg-side 
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .inside-box {
+        grid-template-columns: 1fr;
+    }
+
+    .right-side {
+        display: none;
+    } 
+}
+
+/* confirmation page */
+@media screen and (max-width: 600px){
+    
+    .msg-side 
+    .msg-success {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .msg-side 
+    p {
+        font-size: 16px;
+    }
+
+    .image-side img {
+        display: none;
+    }
+}
