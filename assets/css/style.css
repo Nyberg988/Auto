@@ -103,7 +103,7 @@ span {
     margin-top: 3rem
 }
 
-h2{
+h2 {
     text-align: center;
     padding-top: 2rem;
 }
@@ -124,23 +124,23 @@ h2{
 }
 
 .card
-img{
+img {
     height: 50%;
     width: 100%;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
 
-.card-contents{
+.card-contents {
     text-align: center;
 }
 
 .card-contents
-h3{
+h3 {
     margin-top: 1rem;
 }
 
-.card-contents
+.card-contents 
 p{
     padding: 0.9rem;
 }
@@ -467,7 +467,7 @@ p {
     p {
         font-size: 20px;
     }
-}
+
 
 @media screen and (max-width: 630px){
     .inside-box {
