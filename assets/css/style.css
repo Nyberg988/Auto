@@ -9,7 +9,7 @@
 /* HOME PAGE  */
 /* navbar and log */
 header {
-    background-color: rgb(247, 2, 2);
+    background-color: rgb(247, 92, 2);
     width: 100%;
     height: 65px;
 }
@@ -88,7 +88,7 @@ span {
     font-weight: 800;
     font-size: 3.5rem;
     line-height: 56px;
-    background: linear-gradient(266.52deg, #F174FC 57.51%, #10CFFC 78.55%);
+    background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #f6f8f8 78.55%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -96,51 +96,9 @@ span {
     text-transform: uppercase;
 }
 
-/* about me section */
-#about-me {
-    background-color: #eee;
-    width: 80%;
-    padding: 40px 40px;
-    margin: auto;
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.about-me-text {
-    font-size: 1rem;
-    width: 55%;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.about-me-text
-.title {
-    text-transform: capitalize;
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 1rem;  
-}
-
-.about-me-image {
-    height: auto;
-    width: 40%;
-    margin: auto;
-}
-
-.about-me-image 
-img {
-    width: 100%;
-    height: auto;
-}
-
-/* recipe section */
-#recipe-section {
-    background: url(../image/recipe-bg-home.webp) no-repeat center center fixed; 
+/* bikes section */
+#bikes-section {
+    background: url(../image/pexels-lil-artsy-2747793.jpg) no-repeat center center fixed; 
     background-size: cover;
     margin-top: 3rem
 }
@@ -244,7 +202,7 @@ footer {
     color: #E60023;
 }
 
- /* contact me page */
+ /* contact us page */
 #contact-box {
     height: 100%;
     width: 100%;
@@ -253,7 +211,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 50px 30px;
-    background: url('../image/contact-bg.webp');
+    background: url('../image/pexels-lil-artsy-2747793.jpg');
     background-size: cover;    
 }
 
@@ -330,21 +288,21 @@ p {
     margin-bottom: 2rem;
 }
 
-/* recipes page */
+/* bikes page */
 /* title tag is from home page */
 .title,
-.title-recipe {
+.title-bikes {
     margin-top: 1rem;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
 }
 
-.title-recipe {
+.title-bikes {
     margin-top: 4rem;
 }
 
-.recipe-container {
+.bikes-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -359,15 +317,15 @@ p {
     /* letter-spacing: 2px; */
 }
 
-#recipe-1 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/ramen1.webp');
+#bikes-1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/pexels-lil-artsy-2747793.jpg');
 }
 
-#recipe-2 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/oats1.webp');
+#bikes-2 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/pexels-seva-kruhlov-12764751.jpg');
 }
 
-#recipe-3 {
+#bikes-3 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/poke.webp');
 }
 
@@ -388,12 +346,12 @@ p {
     text-decoration-thickness: 5px;
 }
 
-.recipe-container .ingrdient-side ol > li,
-.recipe-container .instruction-side ol > li {
+.bikes-container .information-side ol > li,
+.bikes-container .prices-side ol > li {
     padding: 0.5rem;
 }
 
-.ingrdient-side {
+.prices-side {
     padding-right: 5rem;
 }
 
@@ -490,33 +448,11 @@ p {
     }
 }
 
-/* about me */
-@media screen and (max-width: 600px){
-    #about-me {
-        background-color: #eee;
-        flex-direction: column-reverse;
-        padding: 10px 0;
-        margin: auto;
-        margin: 2rem;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .about-me-text {
-        width: 80%;
-        margin-top: 0.5rem;
-    }
-
-    .about-me-text
-    .title {
-        font-size: 20px;
-    }
-
-    /* recipe page */
-    .recipe-container {
+    /* bikes page */
+    .bikes-container {
         flex-direction: column;
     }
-    .recipe-container .instruction-side
+    .bikes-container .prices-side
     .head-3 {
         padding-top: 3.5rem;
     }
