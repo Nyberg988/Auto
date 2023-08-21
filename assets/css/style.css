@@ -96,6 +96,10 @@ span {
     text-transform: uppercase;
 }
 
+#us {
+    text-align: center;
+}
+
 /* bikes section */
 #bikes-section {
     background: url(../image/pexels-lil-artsy-2747793.jpg) no-repeat center center fixed; 
@@ -160,7 +164,7 @@ p{
 
 .button:hover, 
 #submit:hover {
-    background: rgba(0, 194, 255, 0.8);
+    background: rgb(255, 94, 0);
     font-size: 17px;
 }
 
@@ -191,7 +195,7 @@ footer {
     font-weight: bold;
 }
 .fa-facebook:hover {
-    color: #10CFFC;    
+    color:  rgb(255, 94, 0);   
 }
 
 .fa-instagram:hover {
@@ -283,7 +287,7 @@ p {
     padding: 0.5rem 1rem;
     border: none;
     font-size: 1rem;
-    background: rgba(0, 194, 255, 0.4);
+    background: rgb(255, 94, 0);
     cursor: pointer;
     margin-bottom: 2rem;
 }
@@ -341,7 +345,7 @@ p {
     width: 30%;
     text-align: start;
     text-decoration: underline;
-    text-decoration-color: rgb(84, 199, 248);
+    text-decoration-color: rgb(255, 94, 0);
     text-underline-offset: 3px;
     text-decoration-thickness: 5px;
 }
@@ -418,7 +422,7 @@ ul{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #12d4ff;
+    background: rgb(255, 94, 0);
     top: 80px;
     left: -100%;
     text-align: center;
