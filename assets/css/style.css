@@ -78,15 +78,16 @@ li a:hover {
 
 .hero 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 800;
     color: #ffffff;
+    margin-top: -30%;
 }
 
 span {
     line-height: 56px;
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: 7rem;
     line-height: 56px;
     background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #ffffff 78.55%);
     -webkit-background-clip: text;
@@ -503,9 +504,56 @@ p {
 
 /* media queries */
 /* navigation and hero section */
+@media (max-width: 768px) {
+
+    .hero 
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #ffffff;
+        margin-top: -100%;
+    }
+    
+    span {
+        line-height: 56px;
+        font-weight: 800;
+        font-size: 4rem;
+        line-height: 56px;
+        background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #ffffff 78.55%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        text-transform: uppercase;
+    }
+}
+
+/* media queries */
+/* navigation and hero section */
 @media (max-width: 425px) {
     #card-img2{
         margin-top: 30%;
+    }
+
+    .hero 
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #ffffff;
+        margin-top: -100%;
+    }
+    
+    span {
+        line-height: 56px;
+        font-weight: 800;
+        font-size: 4rem;
+        line-height: 56px;
+        background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #ffffff 78.55%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        text-transform: uppercase;
     }
 }
 
@@ -515,6 +563,27 @@ p {
     #card-img2{
         margin-top: 30%;
     }
+
+    .hero 
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #ffffff;
+        margin-top: -140%;
+    }
+    
+    span {
+        line-height: 56px;
+        font-weight: 800;
+        font-size: 4rem;
+        line-height: 56px;
+        background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #ffffff 78.55%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        text-transform: uppercase;
+    }
 }
 
 /* media queries */
@@ -523,4 +592,27 @@ p {
     #card-img2{
         margin-top: 30%;
     }
+
+    .hero 
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #ffffff;
+        margin-top: -140%;
+    }
+    
+    span {
+        line-height: 56px;
+        font-weight: 800;
+        font-size: 4rem;
+        line-height: 56px;
+        background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #ffffff 78.55%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        text-transform: uppercase;
+    }
+    
+    
 }
