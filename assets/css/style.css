@@ -78,7 +78,7 @@ li a:hover {
 
 .hero 
 h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 800;
     color: #ffffff;
     margin-top: -30%;
@@ -87,7 +87,7 @@ h1 {
 span {
     line-height: 56px;
     font-weight: 800;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 56px;
     background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #ffffff 78.55%);
     -webkit-background-clip: text;
@@ -508,10 +508,10 @@ p {
 
     .hero 
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 800;
         color: #ffffff;
-        margin-top: -80%;
+        margin-top: -40%;
     }
     
     span {
@@ -537,10 +537,10 @@ p {
 
     .hero 
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 800;
         color: #ffffff;
-        margin-top: -100%;
+        margin-top: -40%;
     }
     
     span {
@@ -569,7 +569,7 @@ p {
         font-size: 3rem;
         font-weight: 800;
         color: #ffffff;
-        margin-top: -100%;
+        margin-top: -40%;
     }
     
     span {
