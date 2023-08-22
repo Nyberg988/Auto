@@ -70,7 +70,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('../image/pexels-mermek-avitia-11679848\ \(1\).jpg');
+    background-image: url('../image/pexels-nicholas-dias-2116475.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -78,9 +78,9 @@ li a:hover {
 
 .hero 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 800;
-
+    color: #ffffff;
 }
 
 span {
@@ -88,7 +88,7 @@ span {
     font-weight: 800;
     font-size: 3.5rem;
     line-height: 56px;
-    background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #f6f8f8 78.55%);
+    background: linear-gradient(266.52deg, rgb(247, 92, 2) 57.51%, #ffffff 78.55%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -498,5 +498,29 @@ p {
 
     .image-side img {
         display: none;
+    }
+}
+
+/* media queries */
+/* navigation and hero section */
+@media (max-width: 425px) {
+    #card-img2{
+        margin-top: 30%;
+    }
+}
+
+/* media queries */
+/* navigation and hero section */
+@media (max-width: 375px) {
+    #card-img2{
+        margin-top: 30%;
+    }
+}
+
+/* media queries */
+/* navigation and hero section */
+@media (max-width: 320px) {
+    #card-img2{
+        margin-top: 30%;
     }
 }
