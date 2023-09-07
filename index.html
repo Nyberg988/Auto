@@ -22,49 +22,92 @@
         <nav>
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html">Webbplats</a>
                 </li>
                 <li>
-                    <a href="#bikes-section">Models</a>
+                    <a href="bikes.html">Marknadsföring</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact us</a>
+                    <a href="about.html">Aibel Since</a>
+                </li>
+                <li>
+                    <a href="contact.html">Kontakt</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section class="hero">
-        <div class="hero-contents">
-            <h1>Welcome to East-bike!</h1>
-            <span>Harley - Indian</span>
-        </div>
+        <video id="video" width="860" height="815" controls autoplay>
+            <source src="assets/image/Fridfull videointroduktion – Gjord med Clipchamp (1).mp4" type="video/mp4">
+            <source src="assets/image/Fridfull videointroduktion – Gjord med Clipchamp (1).mp4" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
     </section>
     <section id="us">
-        <h1>With us you can rent a motorcycle for a day, according to your wishes!</h1>
+        <h1>Fyll i formuläret nedan så tar vi fram olika exempel</h1>
+    </section>
+    <section id="contact-box">
+        <div class="inside-box">
+           <div class="form-side">
+               <form action="./confirmation.html" method="get">
+                   <h2>Företags uppgifter</h2>
+                   <input class="field" type="text" placeholder="Företags Namn" required >
+                   <input class="field" type="email" placeholder="Branch" required>
+                   <textarea class="field" cols="30" rows="6" placeholder="Beskrivning av företag" required></textarea>
+                   <button id="submit" type="submit">Skicka</button>
+               </form>
+           </div>
+           <div class="right-side">
+               <h2>Fyll i formuläret</h2>
+               <p>När ni har fyllt i alla uppgifter tar vi fram olika webbplats alternativ.
+                Ni ser över dessa och eventuell kommer med önskemål.
+                Vi behandlar er webbplats och lägger till ordern i kundvagnen.
+               </p>
+           </div>
+        </div>
     </section>
     <section id="Bikes-section">
-        <h2>Our Models</h2>
+        <h2>Webbplats Process</h2>
         <div class="container">
-            <div class="card">
-                <img src="assets/image/pexels-frans-van-heerden-674048.jpg" alt="">
-               
-                <div class="card-contents">
-                    <h3>Harley Davidson</h3>
-                    <p>
-                        Harley-Davidson is an American motorcycle manufacturer founded in 1903 by William Harley and brothers Walter, William and Arthur Davidson in Milwaukee, Wisconsin.
-                    </p>
-                    <button class="button" onclick="location.href='bikes.html'">read more</button>
-                </div>
-            </div>
-
             <div id="card-img2" class="card">
                 <img src="assets/image/pexels-revac-film's&photography-115145.jpg" alt="">
                 <div class="card-contents">
-                    <h3>Indian</h3>
-                    <p>
-                        Indian Motorcycle (or Indian) is an American brand of motorcycles owned and produced by American automotive manufacturer Polaris Inc. 
+                    <h3>1.</h3>
+                    <p> Fyll i formuläret och ange information om erat företag, Namn, Branch.
                     </p>
-                    <button class="button" onclick="location.href='bikes.html'">read more</button>
+                </div>
+            </div>
+            <div id="card-img2" class="card">
+                <img src="assets/image/pexels-revac-film's&photography-115145.jpg" alt="">
+                <div class="card-contents">
+                    <h3>2.</h3>
+                    <p>Våra utvecklare tar fram olika alternativ på webbplats till er
+                    </p>
+                </div>
+            </div>
+            <div id="card-img2" class="card">
+                <img src="assets/image/pexels-revac-film's&photography-115145.jpg" alt="">
+                <div class="card-contents">
+                    <h3>3.</h3>
+                    <p>Ni framför eventuella synpunkter eller önskemål om webbplatsen och vi ändrar så ni blir nöjd
+                    </p>
+                </div>
+            </div>
+            <div id="card-img2" class="card">
+                <img src="assets/image/pexels-revac-film's&photography-115145.jpg" alt="">
+                <div class="card-contents">
+                    <h3>4.</h3>
+                    <p>Alla är nöjd så går köpet vidare till varukorgen där kunden kan verifiera köpet av er webbplats.
+                    </p>
+                </div>
+            </div>
+            <div id="card-img2" class="card">
+                <img src="assets/image/pexels-revac-film's&photography-115145.jpg" alt="">
+                <div class="card-contents">
+                    <h3>5.</h3>
+                    <p>Vi kan erbjuda eventuella Marknadsförings metoder för att öka visningar på er plattform, Klicka för att se mer!
+                    </p>
+                    <button class="button" onclick="location.href='bikes.html'">Läs mer</button>
                 </div>
             </div>
         </div>

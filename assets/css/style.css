@@ -9,12 +9,12 @@
 /* HOME PAGE  */
 /* navbar and log */
 header {
-    background-color: rgb(247, 92, 2);
+    background-color: rgb(255, 254, 254);
     width: 100%;
     height: 65px;
 }
 
-#logo, nav {
+ #logo, nav {
     line-height: 30px;
     display: inline-block;
 }
@@ -70,11 +70,17 @@ li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('../image/pexels-nicholas-dias-2116475.jpg');
+    background-image: url('../image/skogs\ film\ 2023.mp4');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#video{
+    width: 100%;
+    margin-left: 0%;
+    padding-top: 0%;
+ }
 
 .hero 
 h1 {
@@ -103,7 +109,7 @@ span {
 
 /* bikes section */
 #bikes-section {
-    background: url(../image/pexels-lil-artsy-2747793.jpg) no-repeat center center fixed; 
+    background: url(../image/drone.webp) no-repeat center center fixed; 
     background-size: cover;
     margin-top: 3rem
 }
@@ -165,7 +171,7 @@ p{
 
 .button:hover, 
 #submit:hover {
-    background: rgb(255, 94, 0);
+    background: rgb(0, 0, 0);
     font-size: 17px;
 }
 
@@ -216,7 +222,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 50px 30px;
-    background: url('../image/pexels-lil-artsy-2747793.jpg');
+    background: url('../image/drone.webp');
     background-size: cover;    
 }
 
@@ -288,7 +294,7 @@ p {
     padding: 0.5rem 1rem;
     border: none;
     font-size: 1rem;
-    background: rgb(255, 94, 0);
+    background: rgb(161, 160, 160);
     cursor: pointer;
     margin-bottom: 2rem;
 }
@@ -323,7 +329,7 @@ p {
 }
 
 #bikes-1 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/pexels-lil-artsy-2747793.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../image/drone.webp');
 }
 
 #bikes-2 {
@@ -346,7 +352,7 @@ p {
     width: 30%;
     text-align: start;
     text-decoration: underline;
-    text-decoration-color: rgb(255, 94, 0);
+    text-decoration-color: rgb(73, 73, 73);
     text-underline-offset: 3px;
     text-decoration-thickness: 5px;
 }
